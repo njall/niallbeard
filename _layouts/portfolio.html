@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="album py-5 bg-light">
+	<div class="container">
+		<div class="row">
+			{% for work in site.portfolio %}
+				{{ work }}
+			{% endfor %}
+		</div>
+	</div>
+</div>
