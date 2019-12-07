@@ -5,6 +5,7 @@ description: "To teach Git at workshops, I created a game of Rock Paper Scissors
 website: https://njall.github.io/rock-paper-scissors/
 code: https://github.com/njall/rock-paper-scissors/
 logo: rockpaperscissors.png
+slug: training
 ---
 
 

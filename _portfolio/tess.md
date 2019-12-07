@@ -5,4 +5,5 @@ description: "TeSS is a catalogue of training materials and events. It was commi
 website: https://tess.elixir-europe.org
 code: https://github.com/ElixirTeSS/TeSS
 logo: tess.png
+slug: tess
 ---

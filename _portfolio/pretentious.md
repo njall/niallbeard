@@ -5,4 +5,5 @@ description: "The pretentious-o-meter discerns the different between Pretentious
 website: http://pretentious-o-meter.co.uk
 code: https://github.com/njall/pretentious-o-meter
 logo: pretentious.png
+slug: pretentious-o-meter
 ---

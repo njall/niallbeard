@@ -6,7 +6,33 @@ layout: default
 	<div class="container">
 		<div class="row">
 			{% for work in site.portfolio %}
-				{{ work }}
+			<a href='/portfolio/{{work.slug}}'>
+			<div class="col-md-6">
+				<div class="card mb-4 box-shadow">
+					<div class="portfolio-icon">
+						<img class="portfolio-icon-image card-img-top" src="/assets/images/{{work.logo}}" alt="Card image cap">
+					</div>    	
+					<h3>{{ work.title }}</h3>
+					<div class="card-body">
+						<p class="card-text">{{work.description}}</p>
+						<div class="d-flex justify-content-between align-items-center">
+						  <div class="btn-group">
+							{% if work.code %}
+								<a href="{{work.code}}" target="_blank">
+									<button type="button" class="btn btn-sm btn-outline-secondary">Code</button>
+								</a>
+							{% endif %}
+							{% if work.website %}
+								<a href="{{work.website}}" target="_blank">
+									<button type="button" class="btn btn-sm btn-outline-secondary">Website</button>
+								</a>
+							{% endif %}
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</a>
 			{% endfor %}
 		</div>
 	</div>
